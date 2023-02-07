@@ -2,15 +2,31 @@
 
 body {
  	font-family: 'Outfit', sans-serif;
-
 	font-size: 15px;
+}
+
+.card {
+	width: 375px;
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(216, 12%, 8%);
-	width: 375px;
 
 	display: flex;
+  flex-direction: column;
 	align-items: center;
 	justify-content: center;
 
-	flex-direction: column;
+	margin: 1rem auto;
+}
+
+.how {
+	margin: 1rem auto;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+
+.rating {
+	margin: 1rem;
+  display: flex;
+	justify-content:space-between;
 }
