@@ -5,7 +5,7 @@ body {
 	font-size: 15px;
 }
 
-.card {
+#card {
 	width: 375px;
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(216, 12%, 8%);
@@ -30,3 +30,13 @@ body {
   display: flex;
 	justify-content:space-between;
 }
+
+.circle {
+  background-color: hsl(216, 12%, 54%);
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 1rem;  
+}
+
