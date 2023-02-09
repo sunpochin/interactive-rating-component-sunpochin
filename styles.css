@@ -60,5 +60,10 @@ body {
   border-radius: 15px;
   text-align: center;
 
+  cursor: pointer;
+
 }
 
+.circle:hover {
+  background: #3374C2;
+}
