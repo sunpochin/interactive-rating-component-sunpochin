@@ -27,34 +27,39 @@
 		</style>
 	</head>
 	<body>
-		<!-- Rating state start -->
 		<main>
-			<div id="card">
-				<div class="how">How did we do?</div>
-				<div class="desc">
-					Please let us know how we did with your support request. All feedback
-					is appreciated to help us improve our offering!
+			<div class="wrapper">
+				<div id="card">
+					<!-- Rating state start -->
+					<div id="rating">
+						<div class="how">How did we do?</div>
+						<div class="desc">
+							Please let us know how we did with your support request. All
+							feedback is appreciated to help us improve our offering!
+						</div>
+						<div class="score">
+							<div class="circle">1</div>
+							<div class="circle">2</div>
+							<div class="circle">3</div>
+							<div class="circle">4</div>
+							<div class="circle">5</div>
+						</div>
+						<button id="button">Submit</button>
+					</div>
+					<!-- Rating state end -->
+
+					<!-- Thank you state start -->
+					<div id="result">
+						<div>
+							You selected out of 5 Thank you! We appreciate you taking the time
+							to give a rating. If you ever need more support, don’t hesitate to
+							get in touch!
+						</div>
+					</div>
+					<!-- Thank you state end -->
 				</div>
-				<div class="rating">
-          <div class="circle">1</div>
-          <div class="circle">2</div>
-          <div class="circle">3</div>
-          <div class="circle">4</div>
-          <div class="circle">5</div>
 			</div>
-			<button id="button">Submit</button>
 		</main>
-
-		<!-- Rating state end -->
-
-		<!-- Thank you state start -->
-
-		You selected
-		<!-- Add rating here -->
-		out of 5 Thank you! We appreciate you taking the time to give a rating. If
-		you ever need more support, don’t hesitate to get in touch!
-
-		<!-- Thank you state end -->
 
 		<div class="attribution">
 			Challenge by
@@ -62,6 +67,6 @@
 				>Frontend Mentor</a
 			>. Coded by <a href="#">Your Name Here</a>.
 		</div>
-    <script src="myscripts.js"></script>
+		<script src="myscripts.js"></script>
 	</body>
 </html>
