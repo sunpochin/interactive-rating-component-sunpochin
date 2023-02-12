@@ -69,5 +69,7 @@ body {
 }
 
 
-.daily {
+.submit {
+  display: flex;
+	margin: 1rem auto;
 }
