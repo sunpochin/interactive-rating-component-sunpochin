@@ -59,6 +59,16 @@ body {
   display: none;
 }
 
+.star {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  justify-content: center;
+
+  align-items: center;
+  background-color: var(--dark-blue);
+}
+
 .how {
 	margin: 1rem auto;
 }
