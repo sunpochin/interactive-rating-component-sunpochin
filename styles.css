@@ -25,20 +25,26 @@ body {
 }
 
 .wrapper {
-	width: 375px;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  max-height: 95vh;
+  justify-content: center;  
+
+	/* width: 375px;
   height: 667px;
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(216, 12%, 8%);
 
-	margin: 1rem auto;
+	margin: 1rem auto; */
 }
 
 #card {
 	width: 300px;
   height: 500px;
   
-	margin: 12rem 2rem;
-  padding: 12rem auto; 
+	margin: 2rem 2rem;
+  padding: 2rem auto; 
 
   background-color: hsl(213, 19%, 18%);
   border-radius: 10px;
@@ -50,13 +56,17 @@ body {
 
 #rating {
   display: flex;
-  padding: 2rem 4rem;
+  padding: 1rem 1rem;
   display: block;
 }
 
 #result {
 	margin: 1rem auto;
   display: none;
+}
+
+.desc {
+  color: var(--medium-grey);
 }
 
 .star {
@@ -97,9 +107,7 @@ body {
 }
 
 .submit {
-  display: flex;
-	margin: 1rem auto;
-
+  width: 100%;
   background-color: var(--orange);
   border: none;
   padding: 1rem;
