@@ -28,7 +28,7 @@ body {
   align-items: center;
 	margin: 1rem auto;
 
-  
+
   display: flex;
   flex-direction: column;
   height: 95vh;
@@ -102,11 +102,15 @@ body {
   text-align: center;
 
   cursor: pointer;
+}
 
+.circle.active {
+  background-color: var(--light-grey);
+  color: var(--white);
 }
 
 .circle:hover {
-  background: #3374C2;
+  background: var(--orange);
 }
 
 .submit {
@@ -126,4 +130,3 @@ body {
   background-color: var(--white);
   color: var(--orange);
 }
-
