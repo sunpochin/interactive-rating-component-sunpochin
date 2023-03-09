@@ -41,9 +41,9 @@ body {
   height: 500px; */
   width: 375px;
   height: 667px;
-  
+
 	margin: 2rem 2rem;
-  padding: 2rem auto; 
+  padding: 2rem auto;
 
   background-color: var(--dark-blue);
   border-radius: 10px;
@@ -91,7 +91,7 @@ body {
   display: flex;
 	justify-content:space-between;
   gap: 10px;
-  
+
 }
 
 .circle {
@@ -130,5 +130,3 @@ body {
   background-color: var(--white);
   color: var(--orange);
 }
-
-
